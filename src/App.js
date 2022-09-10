@@ -31,7 +31,6 @@ function App() {
   }
 
   function setPinned(id) {
-    console.log(notes);
     setNotes((prev) => {
       return prev.map((note, index) => {
         if (id === index) {
