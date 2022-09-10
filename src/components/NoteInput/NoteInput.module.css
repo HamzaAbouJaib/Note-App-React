@@ -1,0 +1,93 @@
+.noteInput {
+  height: max-content;
+  padding: 3rem 0;
+  display: flex;
+  justify-content: center;
+}
+
+.input {
+  padding: 1.3rem 1rem;
+  border-radius: 0.5rem;
+  font-size: 1.5rem;
+  outline: none;
+  border: var(--border);
+  background-color: var(--background-color);
+  color: white;
+}
+
+.inputContainer {
+  display: flex;
+  flex-direction: column;
+  width: 30%;
+  position: relative;
+}
+
+.inputContainer .input,
+.textarea {
+  width: 100%;
+  border: none;
+  padding: 1.3rem 1rem;
+  outline: none;
+  border: var(--border);
+}
+
+.inputContainer .input {
+  border-radius: 0.5rem 0.5rem 0 0;
+  border-bottom: none;
+}
+
+.textarea {
+  border-radius: 0 0 0.5rem 0.5rem;
+  padding-top: 0;
+  resize: none;
+  font-size: 1.5rem;
+  border-top: none;
+  background-color: var(--background-color);
+  color: white;
+}
+
+.textAreaUnexpanded {
+  width: 100%;
+  padding: 1.5rem 2rem;
+  outline: none;
+  border: var(--border);
+  border-radius: 0.5rem;
+  resize: none;
+  font-size: 1.5rem;
+  background-color: var(--background-color);
+}
+
+.submitButton {
+  position: absolute;
+  right: 1rem;
+  bottom: -1.3rem;
+  width: 3rem;
+  height: 3rem;
+  border: none;
+  border-radius: 50%;
+  background-color: var(--primary-color);
+  font-size: 3rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-bottom: 0.5rem;
+  color: var(--background-color);
+}
+
+@media screen and (max-width: 1500px) {
+  .input {
+    width: 50%;
+  }
+  .inputContainer {
+    width: 50%;
+  }
+}
+
+@media screen and (max-width: 724px) {
+  .input {
+    width: 80%;
+  }
+  .inputContainer {
+    width: 80%;
+  }
+}

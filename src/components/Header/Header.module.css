@@ -1,0 +1,24 @@
+.header {
+  height: 8vh;
+  border-top: 1px rgb(88, 88, 88) solid;
+  border-bottom: 1px rgb(88, 88, 88) solid;
+  padding: 1rem;
+  display: flex;
+}
+
+.logo {
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+  margin-left: 3rem;
+}
+
+.icon {
+  font-size: 2rem;
+  color: var(--primary-color);
+}
+
+.logo h3 {
+  font-size: 1.5rem;
+  font-weight: 400;
+}

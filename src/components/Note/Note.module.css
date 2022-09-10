@@ -1,0 +1,40 @@
+.note {
+  border: var(--border);
+  width: 20rem;
+  padding: 1rem 1.5rem 1.5rem;
+  border-radius: 0.5rem;
+  height: fit-content;
+  order: 2;
+}
+
+.pinIcon {
+  background-color: transparent;
+  border: none;
+  font-size: 1.5rem;
+  float: right;
+  color: rgb(104, 104, 104);
+}
+
+.pin {
+  order: 1;
+}
+
+.note h3 {
+  font-size: 1.5rem;
+}
+
+.note p {
+  font-size: 1.2rem;
+  white-space: pre-wrap;
+  word-wrap: break-word;
+  padding-top: 1rem;
+}
+
+.deleteButton {
+  float: right;
+  margin-top: 0.5rem;
+  background-color: transparent;
+  border: none;
+  font-size: 1.5rem;
+  color: var(--primary-color);
+}
